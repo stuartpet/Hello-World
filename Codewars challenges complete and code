@@ -1,0 +1,14 @@
+Is n divisible by x and y?
+
+Create a function isDivisible(n, x, y) that checks if a number n is divisible by two numbers x AND y. 
+All inputs are positive, non-zero digits.
+
+my code to solve this challange 
+
+def is_divisible(n,x,y)
+  (n % x == 0) && (n % y == 0)
+end
+
+completes the challange but on a side note 
+(make sure when looking at divisable by you use The modulus operator to return remainder after dividing two integers). 
+That is, 9 % 4 = 1 
