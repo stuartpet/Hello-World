@@ -1,0 +1,15 @@
+Given an array of one's and zero's convert the equivalent binary value to an integer.
+
+Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1.
+
+The code is used was this:
+
+arr.join("").to_i(2) 
+
+I will break it down (for my learning) 
+
+join puts the arry/str into one continuious manor (as above) 0001 
+(") means no spces
+to_i makes this an integer
+and (2) at the end  means binary system so it knows what you want to do. 
+
